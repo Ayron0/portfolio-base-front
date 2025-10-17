@@ -269,3 +269,39 @@ form span {
   background: var(--blue-500);
 }
 
+@media (max-width:760px) {
+
+  header{
+    flex-direction: column; /*Vai ficar no formato de coluna um do lado do outro*/
+    text-align: center;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #video {
+    text-align: center;
+  }
+
+  .main_conatato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .article_mapa iframe {
+    width: 85vw;
+}
+}
